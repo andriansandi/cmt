@@ -1,0 +1,47 @@
+/**
+ * Global SCSS
+ *
+ * @author      Sandi Andrian <andrian.sandi@gmail.com>
+ * @since       Oct 31, 2018
+ **/
+
+ /**
+  * Normalize
+  **/ 
+ body {
+    margin: 0;
+    padding: 0;
+ }
+
+ .cmt {
+    &-banner {
+        &--top {
+            position: fixed;
+            top: 0;
+            width: 100vw;
+            min-height: 60px;
+            background: $grey;
+        }
+    }
+    
+    &-header {
+        max-width: 1200px;
+        padding: 0 15px;
+        margin: 0 auto;
+        height: 60px;
+        min-height: 40px;
+        background: $black;
+    }
+
+    &-content {
+        max-width: 1200px;
+        padding: 0 15px;
+        margin: 80px auto 0 auto;
+        font-family: 'Space Mono', monospace;
+        font-size: 0.9rem;
+
+        &-title {
+            font-size: 3rem;
+        }
+    }
+ }
